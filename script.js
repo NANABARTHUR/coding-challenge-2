@@ -1,25 +1,25 @@
-const age= 19;
-const isOldEnough = age >= 28;
-const ageJose = 21;
-const ageSarah = 22;
+// const age= 19;
+// const isOldEnough = age >= 28;
+// const ageJose = 21;
+// const ageSarah = 22;
 
-if (isOldEnough) {
-  console.log('Sarah can start driving license 🚗');
-}
+// if (isOldEnough) {
+//   console.log('Sarah can start driving license 🚗');
+// }
 
-const averageAge = (ageJose + ageSarah)/2
-console. log(ageJose, ageSarah, averageAge);
-const firstName = 'Jose';
-const birthYear = 1994;
-const year = 2037;
-const job = 'teacher';
+// const averageAge = (ageJose + ageSarah)/2
+// console. log(ageJose, ageSarah, averageAge);
+// const firstName = 'Jose';
+// const birthYear = 1994;
+// const year = 2037;
+// const job = 'teacher';
 
-const jose = "I'm" + firstName + ', a ' + (year - birthYear) 
-+ ' year old ' + job + '!';
-console.log(jose);
+// const jose = "I'm" + firstName + ', a ' + (year - birthYear) 
+// + ' year old ' + job + '!';
+// console.log(jose);
 
-const joseNew = `I'm ${firstName}`
-console.log(joseNew);
+// const joseNew = `I'm ${firstName}`
+// console.log(joseNew);
 
 const massMark = 78;
 const heightMark =  1.69;
@@ -96,8 +96,7 @@ if (agge == 18) console.log('You just became an adult :D (loose)');
 
 const favourite = Number( prompt("What's your favourite number?"));
 console.log(favourite);
-console.log(typeof favourite);
-
+console.log(typeof favourite);code
 if (favourite === 23) {
   console.log('Cool! 23 is an amazing number!')
 } else if (favourite === 7) {
@@ -179,3 +178,73 @@ case 'Sunday':
 default:
   console.log('Not a valid day');    
 }
+
+
+if (day === 'Monday') {
+  console.log('Plan your week very well');
+  console.log('Go to coding meetup');
+}else if (day=== 'tuesday') {
+  console.log('Prepare theory videos');
+} else if( day === "Wednesday" || day === 'Thursday') {
+  console.log('write code examples'); 
+} else if ( day === 'Friday'){
+  console.log('Record videos');
+} else if( day === 'Saturday' || day ==='Sunday') {
+  console.log('Have a beautiful weekend :D');
+} else{
+  console.log('Not a valid day');
+}
+
+
+const me = "Jonas";
+console.log(`I'm ${2037-1991} years old ${me}`)
+
+
+const age = 23;
+// age >= 18 ? console.log('I like to drink wine 🍷'):
+// console.log ('I like to drink water💧');
+  
+
+const drink = age >= 18 ? 'wine🍷' : 'water💧';
+console.log(drink);
+
+
+let drink2;
+if (age >= 18) {
+  drink2 = 'wine 🍷';
+} else{
+  drink2 ='water 💧'
+}
+console.log(drink2);
+
+console.log(`I like to drink $(age >= 18 ? 'wine'
+ : 'water')`);
+
+
+// const bill = 430 <= 300 ? 0.15 *430 : 0.2 *300 ;
+// console.log(bill);
+// const tip = 0.2 <=0.15? 300 * 0.2 : 430 * 0.15 ;
+// console.log(tip);
+// const totalValue ='tip' + 'bill';
+// console.log(totalValue);
+
+
+// const bill = 430 (bill >= 50 <= 300 ? 0.15 *bill : 0.2  *bill);
+// console.log(bill);
+// const tip = 0.2 <=0.15? 300 * 0.2 : 430 * 0.15 ;
+// console.log(tip);
+// const totalValue =`(${tip} + ${bill})`;
+// console.log=(totalValue);
+
+// const bill = 430;
+// bill >= 50  <=300 ? 0.15 *bill : 0.2  *bill ;
+// console.log(bill);
+// const tip =0.2;
+// tip >=0.15 <=0.15? 430 * 0.2 : 300 * 0.15 ;
+// console.log(tip);
+// const totalValue =`(${tip} + ${bill})`;
+// console.log=(totalValue);
+
+const bill = 430;
+const tip = bill <= 300 && bill >=50 ? 0.15 *bill : 0.2  *bill ;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
